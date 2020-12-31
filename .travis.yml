@@ -20,7 +20,7 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: a0972a86-7d5a-4a8a-b62c-40cc1d163eaf
+    secure: "a0972a86-7d5a-4a8a-b62c-40cc1d163eaf"
   app: rogerioferro-helloworld
   on:
     repo: rogerioferro/DevOpsLab-HelloWorld
